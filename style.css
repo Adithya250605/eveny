@@ -74,7 +74,7 @@ h2{
 #page2{
     height: 100vh;
     width: 100%;
-    background: rgba(0, 0, 0, 0.822);
+    background: rgba(0, 0, 0, 0.919);
     position:relative;
     display: flex;
     align-items: center;
@@ -101,15 +101,23 @@ marquee{
     width: 100%;
     z-index: -1;
     object-fit: cover;
-    background-color: rgba(0, 0, 0, 0.493);
+    background-color: rgba(0, 0, 0,0.493);
 }
-
 
 .-item{
-    height: 480px;
-
+    height: 200px;
+     background-color: rgba(0, 0, 0, 0.423);
 }
+
+
 .c-img{
-    height: 100%;
+
+    height: 100vh;
     object-fit: cover;
+}
+h5{
+    font-size: 100px;
+    font-weight: 900;
+    font-family: 'gilory';
+    -webkit-text-stroke: 2px aquamarine;
 }
